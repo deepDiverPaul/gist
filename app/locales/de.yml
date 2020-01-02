@@ -6,14 +6,14 @@ app:
         home:
             title: 'Home'
         about:
-            title: 'Über uns'
+            title: 'Über Gist'
         my:
             login:
                 title: 'Anmelden'
             logout:
                 title: 'Abmelden'
             register:
-                title: 'Konto öffnen'
+                title: 'Registrieren'
             my:
                 title: 'Mein Konto'
 
@@ -24,7 +24,7 @@ my:
         title: 'API'
         warning: 'Keep it <strong>secret!</strong>'
         form:
-            generate: 'Regenerate'
+            generate: 'Neu generieren'
 
 gist:
     untitled: 'Ohne Titel'
@@ -44,7 +44,7 @@ date:
     format: 'Y-m-d h:i:s'
 
 footer:
-    text: '<p>Powered by <a href="https://gitnet.fr/deblan/gist">GIST</a>, it''s open source :) - <a href="https://gitnet.fr/deblan/gist/wiki/1.4-API/">API</a></p>'
+    text: '<p>Powered by <a href="https://github.com/deepDiverPaul/gist">GIST</a>, it''s open source :) - <a href="https://github.com/deepDiverPaul/gist-wiki/blob/master/1.4-API.md">API</a></p>'
 
 login:
     login:
@@ -58,12 +58,12 @@ login:
             remember_me:
                 label: 'Remember me'
     register:
-        title: 'New account'
-        already_exists: 'This username is already registred!'
-        registred: 'Congratulations, your account is created!'
+        title: 'Neues Benutzerkonto'
+        already_exists: 'Dieser Nutzername existiert bereits!'
+        registred: 'Glückwunsch, das Benutzerkonto wurde erstellt!'
         form:
             username:
-                placeholder: 'Username'
+                placeholder: 'Benutzername'
             current_password:
                 placeholder: 'Aktuelles Passwort'
             password:
@@ -79,16 +79,16 @@ form:
         label: 'Cipher: %value%'
         choice:
             anyway: 'Anyway'
-            yes: 'Yes'
-            no: 'No'
-    submit: 'Senden'
+            yes: 'Ja'
+            no: 'Nein'
+    submit: 'Absenden'
     filter: 'Filter'
     confirm: 'Bestätigen Sie?'
     success:
         password: 'Passwort aktualisiert.'
-        gist: 'Gist removed.'
+        gist: 'Gist gelöscht.'
     type:
-        label: 'Language: %value%'
+        label: 'Sprache: %value%'
         choice:
             all: 'All'
             html: 'HTML'
